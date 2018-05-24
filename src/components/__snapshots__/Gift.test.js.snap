@@ -1,0 +1,323 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Gift renders properly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Gift
+    gift={
+        Object {
+            "id": 1,
+          }
+    }
+    removeGift={[Function]}
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <form>
+          <label>
+                    Person
+                    <input
+                              className="input-person"
+                              onChange={[Function]}
+                              type="text"
+                    />
+          </label>
+          <label>
+                    Present
+                    <input
+                              className="input-present"
+                              onChange={[Function]}
+                              type="text"
+                    />
+          </label>
+</form>,
+        <button
+          className="btn-remove"
+          onClick={[Function]}
+>
+          Remove Gift
+</button>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <label>
+              Person
+              <input
+                            className="input-person"
+                            onChange={[Function]}
+                            type="text"
+              />
+</label>,
+            <label>
+              Present
+              <input
+                            className="input-present"
+                            onChange={[Function]}
+                            type="text"
+              />
+</label>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                "Person",
+                <input
+                  className="input-person"
+                  onChange={[Function]}
+                  type="text"
+/>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              "Person",
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "className": "input-person",
+                  "onChange": [Function],
+                  "type": "text",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "input",
+              },
+            ],
+            "type": "label",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                "Present",
+                <input
+                  className="input-present"
+                  onChange={[Function]}
+                  type="text"
+/>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              "Present",
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "className": "input-present",
+                  "onChange": [Function],
+                  "type": "text",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "input",
+              },
+            ],
+            "type": "label",
+          },
+        ],
+        "type": "form",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Remove Gift",
+          "className": "btn-remove",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": "Remove Gift",
+        "type": "button",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <form>
+            <label>
+                        Person
+                        <input
+                                    className="input-person"
+                                    onChange={[Function]}
+                                    type="text"
+                        />
+            </label>
+            <label>
+                        Present
+                        <input
+                                    className="input-present"
+                                    onChange={[Function]}
+                                    type="text"
+                        />
+            </label>
+</form>,
+          <button
+            className="btn-remove"
+            onClick={[Function]}
+>
+            Remove Gift
+</button>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <label>
+                Person
+                <input
+                                className="input-person"
+                                onChange={[Function]}
+                                type="text"
+                />
+</label>,
+              <label>
+                Present
+                <input
+                                className="input-present"
+                                onChange={[Function]}
+                                type="text"
+                />
+</label>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "Person",
+                  <input
+                    className="input-person"
+                    onChange={[Function]}
+                    type="text"
+/>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                "Person",
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "className": "input-person",
+                    "onChange": [Function],
+                    "type": "text",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "input",
+                },
+              ],
+              "type": "label",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "Present",
+                  <input
+                    className="input-present"
+                    onChange={[Function]}
+                    type="text"
+/>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                "Present",
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "className": "input-present",
+                    "onChange": [Function],
+                    "type": "text",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "input",
+                },
+              ],
+              "type": "label",
+            },
+          ],
+          "type": "form",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Remove Gift",
+            "className": "btn-remove",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": "Remove Gift",
+          "type": "button",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+    "disableLifecycleMethods": true,
+  },
+}
+`;
