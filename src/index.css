@@ -1,0 +1,33 @@
+body {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.gift-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-person, .input-person {
+    margin-right: 2em;
+}
+
+input {
+    font-size: 1em;
+    padding: 5px;
+}
+
+button {
+    padding: 10px;
+    background: none;
+    border: 1px solid #673ab7;
+    color: #673ab7;
+    font-size: 1em;
+    margin: 1em;
+}
+
+.btn-remove {
+    font-size: 0.9em;
+    border: none;
+}

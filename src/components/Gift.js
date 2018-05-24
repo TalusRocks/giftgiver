@@ -13,18 +13,16 @@ class Gift extends Component {
 
     render() {
         return (
-            <div>
+            <div className="gift-form">
                 <form>
-                    <label>Person
-                        <input type="text" 
-                        className="input-person"
-                        onChange={event => this.setState({ person: event.target.value })}/>
-                    </label>
-                    <label>Present
-                        <input type="text" 
-                        className="input-present"
-                        onChange={event => this.setState({ present: event.target.value })}/>
-                    </label>
+                    <input type="text" 
+                    className="input-person"
+                    onChange={event => this.setState({ person: event.target.value })}
+                    placeholder="person"/>
+                    <input type="text" 
+                    className="input-present"
+                    onChange={event => this.setState({ present: event.target.value })}
+                    placeholder="present"/>
                 </form>
                 <button 
                     className="btn-remove"
